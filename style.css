@@ -1,0 +1,128 @@
+/* style.css */
+
+@import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
+body{
+  font-size: 25px;
+  font-family: "Space Mono" !important;
+  
+}
+
+
+h1{
+
+  font-size: 10px;
+}
+h2 {
+
+  font-size: 8px;
+}
+
+@keyframes hue {
+    from {
+      filter: hue-rotate(0deg);
+    }
+    to {
+      filter: hue-rotate(360deg);
+    }
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+#banner{
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1551651057-f3f83700a831?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+  background-size: cover;
+  background-position: bottom;
+  padding: 150px 0 100px 0;
+  color: white;
+  /*text-shadow: 0 0 5px #000;*/
+
+ animation: hue 5s infinite;
+  
+}
+#banner h1 {
+  font-family: "Space Mono";
+  font-size: 60px;
+  font-weight: 800;
+
+}
+#banner p {
+  font-family: "Space Mono";
+  font-size: 40px;
+  margin-bottom: 30px;
+
+  
+}
+footer{
+  background: white;
+  bottom: 100px;
+  width: 100%;
+  display: flex !important;
+  justify-content: center;
+  padding: 30px 0 0 0;
+
+}
+
+footer p {  
+  display: inline-flex;
+  
+}
+
+footer a {
+color: #333333;
+font-size: 15px;
+}
+
+footer a:hover {
+  color: lightgrey;
+}
+
+footer ul {
+  display: inline-flex;
+  transform: translateY(-4px);
+}
+
+.card{
+  padding: 30px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.card h2 {
+  margin: 0 0 10px 0;
+}
+
+.card img {
+  background: white;
+  max-height: 100px;
+}
+
+ul li {
+  display: inline-block;
+  margin: 7px;
+}
+
+
+
+
+#banner button {
+  width: 150px;
+  height: 50px;
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 800;
+  border: none;
+
+}
+
+
+
+
+
+
